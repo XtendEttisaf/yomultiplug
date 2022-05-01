@@ -1,0 +1,24 @@
+@media (max-width: 1010px) {
+    body{
+        height: 100vh;
+        width: 100%;
+    }
+    .navbtn label{
+        display: block;
+    }
+    .navbar{
+        display: none;
+        bottom: 80rem;
+    }
+    .navbar ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 5rem;
+    }
+    #hide{
+        display: block;
+    }
+}

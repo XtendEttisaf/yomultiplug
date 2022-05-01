@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    top: 0;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Special Elite', cursive;
+    font-weight: bolder;
+}
+body{
+    background-color: rgba(238, 227, 227, 0.336);
+}
+#break{
+    margin-top: 10rem; 
+}
+/* Made by Xtend Ettisaf */
+
+.logo{
+    text-align: center;
+    margin-top: 7rem;
+    font-family: 'Atma', cursive;
+}
+.logo img{
+    height: 17rem;
+    border-radius: 2rem 0rem 2rem 0rem;
+}
+.logo label{
+    font-size: 2.5rem;
+    background-color: rgb(255, 255, 255);
+    padding: 1.5rem 2rem;
+    box-shadow: 0 0 2rem white;
+    border-radius: 7rem 3rem 7rem 5rem;
+}
+.logo span{
+    font-size: 2rem;
+    font-weight: bolder;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.705);
+    box-shadow: 0 0 2rem rgb(255, 0, 0);
+    padding: 1rem 1.5rem;
+    border-radius: 2rem;
+}
+
+/* Viral Box's CSS */
+
+.viral{
+    text-align: center;
+}
+.viral h1{
+    margin-left: 5rem;
+    padding: 2rem;
+    width: 27rem;
+    border-radius: 3rem 0rem 7rem 2rem;
+    box-shadow: 0 0 2rem red;
+    background-color: rgba(255, 255, 255, 0.781);
+}
+.viral img{
+    height: 20rem;
+    animation: border 2s linear infinite alternate;
+    border-radius: 4rem 0rem 6rem 0rem;
+    transition: 0.5s;
+}
+@keyframes border {
+    0%{
+        border: 0.3rem solid red;
+    }
+    25%{
+        border: 0.3rem solid rgb(9, 255, 0);
+    }
+    50%{
+        border: 0.3rem solid rgb(0, 255, 242);
+    }
+    75%{
+        border: 0.3rem solid rgb(251, 255, 0);
+    }
+    100%{
+        border: 0.3rem solid rgb(183, 0, 255);
+    }
+    
+}
+
+.viral img:hover{
+    height: 23rem;
+    animation: border 2s linear infinite alternate;
+    border-radius: 4rem 0rem 6rem 0rem;
+}
+
+/* Details Box */
+.detailbox{
+    text-align: center;
+    font-family: 'Special Elite', cursive;
+    font-weight: normal;
+    background-color: rgba(0, 0, 0, 0.527);
+    padding: 2rem 0rem;
+}
+.detailbox label{
+    font-size: 4rem;
+    color: white;
+    text-shadow: 0 0 0.7rem white;
+    letter-spacing: 0.2rem;
+}
+
+.detailbox span{
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    font-family: 'AudioWide', cursive;
+}
+.detailbox a{
+    border-radius: 20%;
+    font-size: 3rem;
+    letter-spacing: 2rem;
+    color: #fff;
+    text-shadow: 0 0 0.5rem white;
+}
+
+.mead, .rup, .yeafi, .farin{
+    display: none;
+}

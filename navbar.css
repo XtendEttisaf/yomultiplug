@@ -1,0 +1,82 @@
+.navbar{
+    position: fixed;
+    width: 100%;
+    transition: 2s;
+}
+#arrow{
+    transition: 0.5s;
+    animation: arrow 0.5s linear infinite alternate;
+}
+@keyframes arrow {
+    0%{
+        color: rgb(81, 255, 0);
+    }
+    25%{
+        color: rgb(0, 217, 255);
+    }
+    50%{
+        color: rgb(255, 251, 0);
+    }
+    75%{
+        color: rgb(55, 0, 255);
+    }
+    100%{
+        color: rgb(255, 0, 212);
+    }
+    
+}
+.navbtn label{
+    display: none;
+    color: white;
+    text-shadow: 0 0 1rem white;
+    padding: 1rem 0;
+    font-size: 2rem;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.795);
+    border: 0.5rem solid rgb(0, 0, 0);
+    box-shadow: 0 0 2rem black;
+    letter-spacing: 0.5rem;
+}
+#search{
+    text-shadow: 0 0 0.5rem white;
+    font-size: 2rem;
+}
+#navi{
+    color: #09ff0046;
+    animation: navi 1s linear infinite alternate;
+}
+@keyframes navi {
+    from{
+        color: #07ce0049;
+    }
+    to{
+        color: #09ff00;
+        text-shadow: 0 0 2rem #ffffff;
+    }
+    
+}
+.navbar ul{
+    overflow: auto;
+    background-color: rgba(165, 0, 0, 0.6);
+    transition: 2s;
+}
+
+.navbar li{
+    font-family: 'Atma', cursive;
+    font-weight: bolder;
+    cursor: pointer;
+    padding: 2rem 3rem;
+    font-size: 1.8rem;
+    float: left;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    list-style: none;
+    transition: 0.4s;
+}
+.navbar li:hover{
+    text-shadow: 0 0 1.3rem white;
+    font-size: 2rem;
+}
+#hide{
+    display: none;
+}
